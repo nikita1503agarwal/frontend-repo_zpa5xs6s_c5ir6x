@@ -1,0 +1,80 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 370 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.7.114:3000/
+7:53:38 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:33:53: ERROR: Expected identifier but found "5"
+7:53:40 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:33:53: ERROR: Expected identifier but found "5"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx:33:53
+  
+  Expected identifier but found "5"
+  31 |                </div>
+  32 |                <div>
+  33 |                  <div className="text-3xl font-bold"><5m</div>
+     |                                                       ^
+  34 |                  <div className="text-blue-100">Avg. booking time</div>
+  35 |                </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+7:53:57 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:33:53: ERROR: Expected identifier but found "5"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx:33:53
+  
+  Expected identifier but found "5"
+  31 |                </div>
+  32 |                <div>
+  33 |                  <div className="text-3xl font-bold"><5m</div>
+     |                                                       ^
+  34 |                  <div className="text-blue-100">Avg. booking time</div>
+  35 |                </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+7:54:23 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:33:53: ERROR: Expected identifier but found "5"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx:33:53
+  
+  Expected identifier but found "5"
+  31 |                </div>
+  32 |                <div>
+  33 |                  <div className="text-3xl font-bold"><5m</div>
+     |                                                       ^
+  34 |                  <div className="text-blue-100">Avg. booking time</div>
+  35 |                </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
