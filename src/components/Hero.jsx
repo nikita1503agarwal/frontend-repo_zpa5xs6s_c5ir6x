@@ -30,7 +30,7 @@ export default function Hero() {
                 <div className="text-blue-100">School satisfaction</div>
               </div>
               <div>
-                <div className="text-3xl font-bold"><5m</div>
+                <div className="text-3xl font-bold">&lt;5m</div>
                 <div className="text-blue-100">Avg. booking time</div>
               </div>
             </div>
